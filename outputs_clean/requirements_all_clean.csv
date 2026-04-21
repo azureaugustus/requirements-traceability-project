@@ -1,0 +1,61 @@
+requirement_id,requirement_level,parent_requirement_id,l3_subsystem_id,name,text,source_document_id,revision,status,owner_team
+L2-requirement-0001,L2,,,requirement 1,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0002,L2,,,requirement 2,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0003,L2,,,requirement 3,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0004,L2,,,requirement 4,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0005,L2,,,requirement 5,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0006,L2,,,requirement 6,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0007,L2,,,requirement 7,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0008,L2,,,requirement 8,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0009,L2,,,requirement 9,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0010,L2,,,requirement 10,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0011,L2,,,requirement 11,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0012,L2,,,requirement 12,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0013,L2,,,requirement 13,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0014,L2,,,requirement 14,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0015,L2,,,requirement 15,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0016,L2,,,requirement 16,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0017,L2,,,requirement 17,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0018,L2,,,requirement 18,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0019,L2,,,requirement 19,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L2-requirement-0020,L2,,,requirement 20,Sample high-level requirement text,L2 Document-0500,C,Approved,Systems
+L3-subsystem1-0001,L3,L2-requirement-0016,1,subsystem1-1,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0002,L3,L2-requirement-0007,1,subsystem1-2,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0003,L3,,1,subsystem1-3,Sample lower-level requirement text,L3 Document-3000,A,Draft,Avionics
+L3-subsystem1-0004,L3,L2-requirement-0005,1,subsystem1-4,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0005,L3,L2-requirement-0005,1,subsystem1-5,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0006,L3,L2-requirement-0012,1,subsystem1-6,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0007,L3,L2-requirement-0019,1,subsystem1-7,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0008,L3,,1,subsystem1-8,Sample lower-level requirement text,L3 Document-3000,A,Draft,Avionics
+L3-subsystem1-0009,L3,,1,subsystem1-9,Sample lower-level requirement text,L3 Document-3000,A,Draft,Avionics
+L3-subsystem1-0010,L3,L2-requirement-0013,1,subsystem1-10,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0011,L3,L2-requirement-0001,1,subsystem1-11,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0012,L3,L2-requirement-0005,1,subsystem1-12,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0013,L3,L2-requirement-0015,1,subsystem1-13,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0014,L3,L2-requirement-0017,1,subsystem1-14,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0015,L3,L2-requirement-0020,1,subsystem1-15,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem1-0016,L3,L2-requirement-0020,1,subsystem1-16,Sample lower-level requirement text,L3 Document-3000,A,Under Review,Avionics
+L3-subsystem1-0017,L3,L2-requirement-0004,1,subsystem1-17,Sample lower-level requirement text,L3 Document-3000,A,Under Review,Avionics
+L3-subsystem1-0018,L3,L2-requirement-0006,1,subsystem1-18,Sample lower-level requirement text,L3 Document-3000,A,Under Review,Avionics
+L3-subsystem1-0019,L3,L2-requirement-0008,1,subsystem1-19,Sample lower-level requirement text,L3 Document-3000,A,Under Review,Avionics
+L3-subsystem1-0020,L3,L2-requirement-0010,1,subsystem1-20,Sample lower-level requirement text,L3 Document-3000,A,Approved,Avionics
+L3-subsystem2-0001,L3,L2-requirement-0017,2,subsystem2-1,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0002,L3,L2-requirement-0007,2,subsystem2-2,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0003,L3,L2-requirement-0005,2,subsystem2-3,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0004,L3,,2,subsystem2-4,Sample lower-level requirement text,L3 Document-6000,B,Draft,Controls
+L3-subsystem2-0005,L3,L2-requirement-0005,2,subsystem2-5,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0006,L3,L2-requirement-0016,2,subsystem2-6,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0007,L3,,2,subsystem2-7,Sample lower-level requirement text,L3 Document-6000,B,Draft,Controls
+L3-subsystem2-0008,L3,L2-requirement-0012,2,subsystem2-8,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0009,L3,L2-requirement-0015,2,subsystem2-9,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0010,L3,L2-requirement-0020,2,subsystem2-10,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0011,L3,L2-requirement-0020,2,subsystem2-11,Sample lower-level requirement text,L3 Document-6000,B,Under Review,Controls
+L3-subsystem2-0012,L3,,2,subsystem2-12,Sample lower-level requirement text,L3 Document-6000,B,Under Review,Controls
+L3-subsystem2-0013,L3,L2-requirement-0020,2,subsystem2-13,Sample lower-level requirement text,L3 Document-6000,B,Under Review,Controls
+L3-subsystem2-0014,L3,L2-requirement-0001,2,subsystem2-14,Sample lower-level requirement text,L3 Document-6000,B,Under Review,Controls
+L3-subsystem2-0015,L3,L2-requirement-0005,2,subsystem2-15,Sample lower-level requirement text,L3 Document-6000,B,Under Review,Controls
+L3-subsystem2-0016,L3,L2-requirement-0003,2,subsystem2-16,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0017,L3,L2-requirement-0008,2,subsystem2-17,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0018,L3,L2-requirement-0012,2,subsystem2-18,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0019,L3,L2-requirement-0019,2,subsystem2-19,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
+L3-subsystem2-0020,L3,L2-requirement-0019,2,subsystem2-20,Sample lower-level requirement text,L3 Document-6000,B,Approved,Controls
