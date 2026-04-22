@@ -16,6 +16,29 @@ Prototype reporting database for consolidating L2 and L3 requirements, expected 
 - `outputs_clean/` cleaned CSV outputs
 - `database/` SQLite database file
 
+## Data Model
+
+The reporting database uses normalized relational tables linking:
+
+-Requirements
+-L3 Subsystems
+-Expected L2-L3 allocations
+-Actual trace relationships
+
+![ER Diagram](images.er_diagram.png)
+
+## Example Output
+
+### Gaps Report
+Identifies expected subsystem allocations with no traced L3 requirement.
+
+![Traceability Gap View](images/requirements_trace_reports_gaps.png)
+
+### Full Traceability Report
+Shows expected vs actual trace relationships.
+
+![Full Report](images/full_report.png)
+
 ## Features
 - Cleans raw requirement and traceability files
 - Builds structured relational tables
