@@ -25,7 +25,7 @@ The reporting database uses normalized relational tables linking:
 -Expected L2-L3 allocations
 -Actual trace relationships
 
-![ER Diagram](images.er_diagram.png)
+![ER Diagram](images/er_diagram.png)
 
 ## Example Output
 
